@@ -1,4 +1,4 @@
-SQL Query to find customers in certain countries
+SQL query to find customers in certain countries
 
 SELECT C.city, COUNT(A.customer_id) AS customer_number
 FROM customer A
